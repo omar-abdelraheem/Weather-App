@@ -35,7 +35,7 @@ function App() {
   
 
   axios
-  .get("https://api.openweathermap.org/data/2.5/weather?lat=30.03&lon=31.23&appid=ffbaa7f98c8958f290e5a4278886755d",
+  .get("https://api.openweathermap.org/data/2.5/weather?lat=30.03&lon=31.23&appid=ffbaa7f98c8958f290e5a4278886755d&units=metric",
     {
       cancelToken:new axios.CancelToken((c)=>{
         cancelAxios = c;
@@ -43,9 +43,9 @@ function App() {
     }
   )
   .then((response) => {
-    const tempData = Math.round(response.data.main.temp - 275.15) ;
-    const minTempData = Math.round(response.data.main.temp_min - 275.15) ;
-    const maxTempData = Math.round(response.data.main.temp_max - 275.15) ;
+    const tempData = Math.round(response.data.main.temp) ;
+    const minTempData = Math.round(response.data.main.temp_min) ;
+    const maxTempData = Math.round(response.data.main.temp_max) ;
     const skyData = response.data.weather[0].main;
     const weatherIconCode = response.data.weather[0].icon;
     const weatherIconUrl =`https://openweathermap.org/img/wn/${weatherIconCode}@2x.png`;
