@@ -19,13 +19,13 @@ A modern, responsive weather application built with **React** and **Vite**. Get 
 
 ---
 
-## � Screenshot
+## 📸 Screenshot
 
-![Weather App Screenshot](/dist/screenShot.png)
+![Weather App Screenshot](src/assets/hero.png)
 
 ---
 
-## �🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 - **React 19** - UI library
 - **Vite 8** - Build tool with HMR support
