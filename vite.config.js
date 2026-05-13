@@ -4,8 +4,10 @@ import babel from '@rolldown/plugin-babel'
 
 // https://vite.dev/config/
 export default defineConfig({
+   base: '/Weather-App/', 
   plugins: [
     react(),
     babel({ presets: [reactCompilerPreset()] })
   ],
 })
+

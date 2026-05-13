@@ -10,6 +10,11 @@ i18n
   .init({
     lng: "ar", 
     fallbackLng: "en", 
+    backend: {
+      loadPath: '/Weather-App/locales/{{lng}}/{{ns}}.json'
+    },
+    ns: ['translation'],
+    defaultNS: 'translation',
     interpolation: {
       escapeValue: false 
     }
