@@ -1,0 +1,30 @@
+| الكود | الإنجليزية                    | العربية                 | الأيقونة |
+| ----- | ----------------------------- | ----------------------- | -------- |
+| 0     | Clear sky                     | سماء صافية              | ☀️       |
+| 1     | Mainly clear                  | صافي جزئياً             | 🌤️      |
+| 2     | Partly cloudy                 | غائم جزئياً             | ⛅        |
+| 3     | Overcast                      | غائم تماماً             | ☁️       |
+| 45    | Foggy                         | ضبابي                   | 🌫️      |
+| 48    | Icy fog                       | ضباب جليدي              | 🌫️❄️    |
+| 51    | Light drizzle                 | رذاذ خفيف               | 🌦️      |
+| 53    | Moderate drizzle              | رذاذ متوسط              | 🌦️      |
+| 55    | Dense drizzle                 | رذاذ كثيف               | 🌧️      |
+| 56    | Light freezing drizzle        | رذاذ متجمد خفيف         | 🌧️❄️    |
+| 57    | Heavy freezing drizzle        | رذاذ متجمد كثيف         | 🌧️❄️    |
+| 61    | Slight rain                   | مطر خفيف                | 🌧️      |
+| 63    | Moderate rain                 | مطر متوسط               | 🌧️      |
+| 65    | Heavy rain                    | مطر غزير                | 🌧️      |
+| 66    | Light freezing rain           | مطر متجمد خفيف          | 🌨️      |
+| 67    | Heavy freezing rain           | مطر متجمد غزير          | 🌨️      |
+| 71    | Slight snow                   | ثلج خفيف                | 🌨️      |
+| 73    | Moderate snow                 | ثلج متوسط               | ❄️       |
+| 75    | Heavy snow                    | ثلج كثيف                | ❄️       |
+| 77    | Snow grains                   | حبيبات ثلج              | 🌨️      |
+| 80    | Slight rain showers           | زخات مطر خفيفة          | 🌦️      |
+| 81    | Moderate rain showers         | زخات مطر متوسطة         | 🌧️      |
+| 82    | Violent rain showers          | زخات مطر عنيفة          | ⛈️       |
+| 85    | Slight snow showers           | زخات ثلج خفيفة          | 🌨️      |
+| 86    | Heavy snow showers            | زخات ثلج كثيفة          | ❄️       |
+| 95    | Thunderstorm                  | عاصفة رعدية             | ⛈️       |
+| 96    | Thunderstorm with slight hail | عاصفة رعدية مع برد خفيف | ⛈️🌩️    |
+| 99    | Thunderstorm with heavy hail  | عاصفة رعدية مع برد كثيف | ⛈️🌩️    |
